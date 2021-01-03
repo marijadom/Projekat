@@ -13,12 +13,12 @@ def pretrazi_knjige_string(kljuc, vrednost):
 
 
 
-def pretrazi_knjige_brojevi(kljuc, vrednost):
+def pretrazi_knjige_brojevi(kljuc, donja_vrednost, gornja_vrednost):
     knjige = ucitaj_knjige()
     filtrirane_knjige = []
 
     for knjiga in knjige:
-        if vrednost == knjiga[kljuc]:
+        if donja_vrednost <= knjiga[kljuc] <= gornja_vrednost:
             filtrirane_knjige.append(knjiga)
 
     return filtrirane_knjige
@@ -40,10 +40,20 @@ def pretrazi_knjige():
         naslov = input("Unesite naslov: ")
         knjige = pretrazi_knjige_string('naslov', naslov)
 
+    elif stavka == 2:
+        kategorija = input("Unesite kategoriju: ")
+        knjige = pretrazi_knjige_string('kategorija', kategorija)
 
     elif stavka == 3:
         autor = input("Unesite autora: ")
         knjige = pretrazi_knjige_string('autor', autor)
+    elif stavka == 4:
+        izdavac = input("Unesite izdavaca: ")
+        knjige = pretrazi_knjige_string('izdavac', izdavac)
+    elif stavka == 5:
+        cena = input("Unesite cenu: ")
+        knjige = pretrazi_knjige_brojevi('cena', cena)
+
 
     for knjiga in knjige:
         print(knjiga)
@@ -79,6 +89,14 @@ def prikazi_knjige():
         knjige = sortiraj_knjige("naslov")
     elif stavka == 2:
         knjige = sortiraj_knjige("kategorija")
+    elif stavka == 3:
+        knjige = sortiraj_knjige("autor")
+    elif stavka == 4:
+        knjige = sortiraj_knjige("izdavac")
+    elif stavka == 5:
+        knjige = sortiraj_knjige("cena")
+
+
 
 
 

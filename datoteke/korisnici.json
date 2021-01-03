@@ -3,4 +3,29 @@
   "ime": "Admin",
   "prezime": "Adminovic",
   "tip_korisnika": "Administrator"
+},
+{"korisnicko_ime": "stefan123",
+  "lozinka": "sstteeffaann",
+  "ime": "Stefan",
+  "prezime": "Markovic",
+  "tip_korisnika": "Prodavac"
+},
+{"korisnicko_ime": "Jecaj",
+  "lozinka": "halkidiki",
+  "ime": "Jelena",
+  "prezime": "Jovanovic",
+  "tip_korisnika": "Prodavac"
+},
+{"korisnicko_ime": "markoilic",
+  "lozinka": "vinvin2288",
+  "ime": "Marko",
+  "prezime": "Ilic",
+  "tip_korisnika": "Prodavac"
+},
+{"korisnicko_ime": "gagas",
+  "lozinka": "dragana2408",
+  "ime": "Dragana",
+  "prezime": "Stojanovic",
+  "tip_korisnika": "Menadzer"
 }]
+
