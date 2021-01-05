@@ -1,6 +1,8 @@
 from korisnici.korisnici import prijava
 from knjige.knjige import prikazi_knjige, pretrazi_knjige, dodaj_knjigu, izmena_knjige
 from pomocne import unos
+from korisnici.prodavac import prodaja_knjiga
+from korisnici.menadzer import kreiraj_akciju
 
 def meni_administrator():
 
@@ -35,6 +37,67 @@ def meni_administrator():
 
 
 
+def meni_prodavac(prodavac):
+
+    while True:
+        print('\n1.Prodaja knjiga')
+        print('2.Pretraga knjiga')
+        print('3.Prikaz akcija')
+        print('4.Pretraga akcija')
+        print('5.Dodavanje nove knjige')
+        print('6.Izmena knjige')
+        print('10. Kraj')
+
+        stavka = unos.validacija_unosa_broj("Izaberite stavku: ")
+
+        if stavka == 1:
+            prodaja_knjiga(prodavac)
+
+        elif stavka == 2:
+            pretrazi_knjige()
+
+        elif stavka == 5:
+            dodaj_knjigu()
+
+        elif stavka == 6:
+            izmena_knjige()
+
+        elif stavka == 10:
+            return
+        else:
+            print("Pokusajte ponovo!")
+
+
+
+def meni_menadzer():
+
+    while True:
+        print('\n1.Prodaja knjiga')
+        print('2.Pretraga knjiga')
+        print('3.Prikaz akcija')
+        print('4.Pretraga akcija')
+        print('5.Dodavanje nove akcije')
+        print('6.Izmena knjige')
+        print('10. Kraj')
+
+        stavka = unos.validacija_unosa_broj("Izaberite stavku: ")
+
+        if stavka == 1:
+            prodaja_knjiga()
+
+        elif stavka == 2:
+            pretrazi_knjige()
+
+        elif stavka == 5:
+            kreiraj_akciju()
+
+        elif stavka == 6:
+            izmena_knjige()
+
+        elif stavka == 10:
+            return
+        else:
+            print("Pokusajte ponovo!")
 
 
 
@@ -47,10 +110,10 @@ def main():
         if ulogovani_korisnik['tip_korisnika'] == 'Administrator':
             meni_administrator()
         elif ulogovani_korisnik['tip_korisnika'] == 'Prodavac':
-            pass
+            meni_prodavac(ulogovani_korisnik)
 
         elif ulogovani_korisnik['tip_korisnika'] == 'Menadzer':
-            pass
+            meni_menadzer()
         else:
             print("Korisnik ima nepoznatu ulogu!")
     else:
