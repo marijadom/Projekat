@@ -73,8 +73,7 @@ def prikaz_tabele_knjiga():
     knjige = ucitaj_knjige()
 
     for knjiga in knjige:
-        if not knjiga['obrisana']:
-            print(knjiga_format.format(knjiga["sifra"], knjiga["naslov"], knjiga['autor'], knjiga['isbn'], knjiga['izdavac'],
+        print(knjiga_format.format(knjiga["sifra"], knjiga["naslov"], knjiga['autor'], knjiga['isbn'], knjiga['izdavac'],
                                    knjiga['godina'], knjiga['cena'], knjiga['kategorija']))
 
 

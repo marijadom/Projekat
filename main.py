@@ -1,8 +1,10 @@
-from korisnici.korisnici import prijava
+from korisnici.korisnici import prijava, registracija, prikazi_korisnike
 from knjige.knjige import prikazi_knjige, pretrazi_knjige, dodaj_knjigu, izmena_knjige
 from pomocne import unos
 from korisnici.prodavac import prodaja_knjiga
 from korisnici.menadzer import kreiraj_akciju
+from akcije.akcije import prikaz_tabele_akcija, pretrazi_akcije
+from akcije.akcijeIO import ucitaj_akcije
 
 def meni_administrator():
 
@@ -13,6 +15,8 @@ def meni_administrator():
         print('4.Pretraga akcija')
         print('5.Dodavanje nove knjige')
         print('6.Izmena knjige')
+        print('7.Registracija korisnika')
+        print('8.Prikazite korisnike')
         print('10. Kraj')
 
         stavka = unos.validacija_unosa_broj("Izaberite stavku: ")
@@ -23,11 +27,24 @@ def meni_administrator():
         elif stavka == 2:
             pretrazi_knjige()
 
+        elif stavka == 3:
+            prikaz_tabele_akcija(ucitaj_akcije())
+
+        elif stavka == 4:
+            pretrazi_akcije()
+
+
         elif stavka == 5:
             dodaj_knjigu()
 
         elif stavka == 6:
             izmena_knjige()
+
+        elif stavka == 7:
+            registracija()
+
+        elif stavka == 8:
+            prikazi_korisnike()
 
         elif stavka == 10:
             return
@@ -118,7 +135,6 @@ def main():
             print("Korisnik ima nepoznatu ulogu!")
     else:
         print("Tri puta pogresan unos!")
-
 
 
 main()
