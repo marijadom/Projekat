@@ -30,7 +30,9 @@ def dodaj_knjigu_na_racun(racun, knjiga, cena, kolicina):
             "kolicina": kolicina,
             "autor": knjiga['autor'],
             "kategorija": knjiga['kategorija'],
-            "izdavac": knjiga['izdavac']
+            "izdavac": knjiga['izdavac'],
+            "naslov": knjiga['naslov'],
+            "cena": cena
         }
 
     racun['ukupna cena'] = racun['ukupna cena'] + cena * kolicina

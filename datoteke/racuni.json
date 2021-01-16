@@ -1,1 +1,74 @@
-[{"sifra": 167022344683770333665175252275678284132, "knjige": {"1": {"kolicina": 4, "autor": "Jelena Bacic Alimpic", "kategorija": "Drama", "izdavac": "Vulkan"}, "2": {"kolicina": 2, "autor": "Gijom Muso", "kategorija": "Roman", "izdavac": "Vulkan"}}, "prodavac": "Stefan Markovic", "ukupna cena": 3706.0, "datum i vreme": "05/01/2021 14:47"}]
+[
+  {
+    "sifra": 223736735435095598469005376755167791460,
+    "knjige": {
+      "2": {
+        "kolicina": 3,
+        "autor": "Gijom Muso",
+        "kategorija": "Roman",
+        "izdavac": "Vulkan",
+        "naslov": "Ako sutra ne postoji",
+        "cena": 750.0
+      }
+    },
+    "prodavac": "Stefan Markovic",
+    "ukupna cena": 2250.0,
+    "datum i vreme": "16/01/2021 19:36"
+  },
+  {
+    "sifra": 120788091035308154519022146764061149540,
+    "knjige": {
+      "2": {
+        "kolicina": 2,
+        "autor": "Gijom Muso",
+        "kategorija": "Roman",
+        "izdavac": "Vulkan",
+        "naslov": "Ako sutra ne postoji",
+        "cena": 750.0
+      }
+    },
+    "prodavac": "Stefan Markovic",
+    "ukupna cena": 1500.0,
+    "datum i vreme": "16/01/2021 20:31"
+  },
+  {
+    "sifra": 9929506941199654067409945672555039076,
+    "knjige": {
+      "3": {
+        "kolicina": 1,
+        "autor": "Aleksandar Sergejevic Puskin",
+        "kategorija": "Roman",
+        "izdavac": "Kontrast izdavastvo",
+        "naslov": "Evgenije Onjegin",
+        "cena": 740.0
+      },
+      "4": {
+        "kolicina": 3,
+        "autor": "Borislav Pekic",
+        "kategorija": "Biografija",
+        "izdavac": "Laguna",
+        "naslov": "Godine koje su pojeli skakavci",
+        "cena": 687.0
+      },
+      "5": {
+        "kolicina": 1,
+        "autor": "Agata Kristi",
+        "kategorija": "Triler",
+        "izdavac": "Mladinska knjiga",
+        "naslov": "Ubistvo u Orijent ekspresu",
+        "cena": 810.0
+      },
+      "6": {
+        "kolicina": 1,
+        "autor": "Den Simons",
+        "kategorija": "Fantastika",
+        "izdavac": "Prometej",
+        "naslov": "Crna brda",
+        "cena": 720.0
+      }
+    },
+    "prodavac": "Stefan Markovic",
+    "ukupna cena": 4697.0,
+    "datum i vreme": "16/01/2021 20:43"
+  }
+]

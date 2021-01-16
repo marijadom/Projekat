@@ -5,6 +5,7 @@ from korisnici.prodavac import prodaja_knjiga
 from korisnici.menadzer import kreiraj_akciju
 from akcije.akcije import prikaz_tabele_akcija, pretrazi_akcije
 from akcije.akcijeIO import ucitaj_akcije
+from korisnici.menadzer import kreiraj_izvestaj
 
 def meni_administrator():
 
@@ -137,7 +138,7 @@ def meni_menadzer():
             kreiraj_akciju()
 
         elif stavka == 8:
-            pass
+            kreiraj_izvestaj()
         
         elif stavka == 9:
             return
