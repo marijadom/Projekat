@@ -17,7 +17,7 @@ def meni_administrator():
         print('5.Dodavanje nove knjige')
         print('6.Izmena knjige')
         print('7.Registracija korisnika')
-        print('8.Prikaz korisnike')
+        print('8.Prikaz korisnika')
         print('9.Kraj.')
 
         stavka = unos.validacija_unosa_broj("Izaberite stavku: ")

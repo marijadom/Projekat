@@ -1,1 +1,112 @@
-[{"sifra": 1, "naslov": "Poslednje prolece u Parizu", "autor": "Jelena Bacic Alimpic", "isbn": "1312312312312", "izdavac": "Vulkan", "godina": 2020, "cena": 650.0, "kategorija": "Drama"}, {"sifra": 2, "naslov": "Ako sutra ne postoji", "autor": "Gijom Muso", "isbn": "13123123332325", "izdavac": "Vulkan", "godina": 2019, "cena": 750.0, "kategorija": "Roman"}, {"sifra": 3, "naslov": "Evgenije Onjegin", "autor": "Aleksandar Sergejevic Puskin", "isbn": "1312312312319", "izdavac": "Kontrast izdavastvo", "godina": 2015, "cena": 520.0, "kategorija": "Roman"}, {"sifra": 4, "naslov": "Godine koje su pojeli skakavci", "autor": "Borislav Pekic", "isbn": "1312312312317", "izdavac": "Laguna", "godina": 2017, "cena": 870.0, "kategorija": "Biografija"}, {"sifra": 5, "naslov": "Ubistvo u Orijent ekspresu", "autor": "Agata Kristi", "isbn": "11312312312309", "izdavac": "Mladinska knjiga", "godina": 2013, "cena": 985.0, "kategorija": "Triler"}, {"sifra": 6, "naslov": "Crna brda", "autor": "Den Simons", "isbn": "11312312312305", "izdavac": "Prometej", "godina": 2015, "cena": 782.0, "kategorija": "Fantastika"}, {"sifra": 7, "naslov": "Biografija gladi", "autor": "Ameli Notomb", "isbn": "11312312312300", "izdavac": "Kontrast izdavastvo", "godina": 2019, "cena": 965.0, "kategorija": "Biografija"}, {"sifra": 8, "naslov": "Diskretni heroj", "autor": "Mario Vargas Ljosa", "isbn": "11312312312303", "izdavac": "Laguna", "godina": 2018, "cena": 1100.0, "kategorija": "Triler"}, {"sifra": 9.0, "naslov": "Na Drini cuprija", "autor": "Ivo Andric", "isbn": 1312312312300.0, "izdavac": "Vulkan", "godina": 2018, "cena": 1050.0, "kategorija": "Roman"}]
+[
+  {
+    "sifra": 1,
+    "naslov": "Poslednje prolece u Parizu",
+    "autor": "Jelena Bacic Alimpic",
+    "isbn": "1312312312312",
+    "izdavac": "Vulkan",
+    "broj strana": 320,
+    "godina": 2020,
+    "cena": 650.0,
+    "kategorija": "Drama"
+  },
+  {
+    "sifra": 2,
+    "naslov": "Ako sutra ne postoji",
+    "autor": "Gijom Muso",
+    "isbn": "13123123332325",
+    "izdavac": "Vulkan",
+    "broj strana": 425,
+    "godina": 2019,
+    "cena": 750.0,
+    "kategorija": "Roman"
+  },
+  {
+    "sifra": 3,
+    "naslov": "Evgenije Onjegin",
+    "autor": "Aleksandar Sergejevic Puskin",
+    "isbn": "1312312312319",
+    "izdavac": "Kontrast izdavastvo",
+    "broj strana": 410,
+    "godina": 2015,
+    "cena": 520.0,
+    "kategorija": "Roman"
+  },
+  {
+    "sifra": 4,
+    "naslov": "Godine koje su pojeli skakavci",
+    "autor": "Borislav Pekic",
+    "isbn": "1312312312317",
+    "izdavac": "Laguna",
+    "broj strana": 285,
+    "godina": 2017,
+    "cena": 870.0,
+    "kategorija": "Biografija"
+  },
+  {
+    "sifra": 5,
+    "naslov": "Ubistvo u Orijent ekspresu",
+    "autor": "Agata Kristi",
+    "isbn": "11312312312309",
+    "izdavac": "Mladinska knjiga",
+    "broj strana": 511,
+    "godina": 2013,
+    "cena": 985.0,
+    "kategorija": "Triler"
+  },
+  {
+    "sifra": 6,
+    "naslov": "Crna brda",
+    "autor": "Den Simons",
+    "isbn": "11312312312305",
+    "izdavac": "Prometej",
+    "broj strana": 330,
+    "godina": 2015,
+    "cena": 782.0,
+    "kategorija": "Fantastika"
+  },
+  {
+    "sifra": 7,
+    "naslov": "Biografija gladi",
+    "autor": "Ameli Notomb",
+    "isbn": "11312312312300",
+    "izdavac": "Kontrast izdavastvo",
+    "broj strana": 365,
+    "godina": 2019,
+    "cena": 965.0,
+    "kategorija": "Biografija"
+  },
+  {
+    "sifra": 8,
+    "naslov": "Diskretni heroj",
+    "autor": "Mario Vargas Ljosa",
+    "isbn": "11312312312303",
+    "broj strana": 290,
+    "izdavac": "Laguna",
+    "godina": 2018,
+    "cena": 1100.0,
+    "kategorija": "Triler"
+  },
+  {
+    "sifra": 9,
+    "naslov": "Na Drini cuprija",
+    "autor": "Ivo Andric",
+    "isbn": 1312312312300.0,
+    "izdavac": "Vulkan",
+    "broj strana": 450,
+    "godina": 2018,
+    "cena": 1050.0,
+    "kategorija": "Roman"
+  },
+  {
+    "sifra": 10,
+    "naslov": "Pet prstenova",
+    "autor": "Mijamoto Musasi",
+    "isbn": 1245512451246,
+    "izdavac": "Laguna",
+    "broj strana": 120,
+    "godina": 2019,
+    "cena": 542.0,
+    "kategorija": "filozofski"
+  }
+]

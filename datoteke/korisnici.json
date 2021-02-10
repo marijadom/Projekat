@@ -1,1 +1,58 @@
-[{"korisnicko_ime": "Admin", "lozinka": "Admin", "ime": "Admin", "prezime": "Adminovic", "tip_korisnika": "Administrator"}, {"korisnicko_ime": "stefan123", "lozinka": "sstteeffaann", "ime": "Stefan", "prezime": "Markovic", "tip_korisnika": "Prodavac"}, {"korisnicko_ime": "Jecaj", "lozinka": "halkidiki", "ime": "Jelena", "prezime": "Jovanovic", "tip_korisnika": "Prodavac"}, {"korisnicko_ime": "markoilic", "lozinka": "vinvin2288", "ime": "Marko", "prezime": "Ilic", "tip_korisnika": "Prodavac"}, {"korisnicko_ime": "gagas", "lozinka": "dragana2408", "ime": "Dragana", "prezime": "Stojanovic", "tip_korisnika": "Menadzer"}, {"tip_korisnika": "Menadzer", "korisnicko_ime": "veljko2", "ime": "Veljko", "prezime": "Savic", "lozinka": "123atletika"}]
+[
+  {
+    "korisnicko_ime": "Admin",
+    "lozinka": "Admin",
+    "ime": "Admin",
+    "prezime": "Adminovic",
+    "tip_korisnika": "Administrator"
+  },
+  {
+    "korisnicko_ime": "stefan123",
+    "lozinka": "sstteeffaann",
+    "ime": "Stefan",
+    "prezime": "Markovic",
+    "tip_korisnika": "Prodavac"
+  },
+  {
+    "korisnicko_ime": "Jecaj",
+    "lozinka": "halkidiki",
+    "ime": "Jelena",
+    "prezime": "Jovanovic",
+    "tip_korisnika": "Prodavac"
+  },
+  {
+    "korisnicko_ime": "markoilic",
+    "lozinka": "vinvin2288",
+    "ime": "Marko",
+    "prezime": "Ilic",
+    "tip_korisnika": "Prodavac"
+  },
+  {
+    "korisnicko_ime": "gagas",
+    "lozinka": "dragana2408",
+    "ime": "Dragana",
+    "prezime": "Stojanovic",
+    "tip_korisnika": "Menadzer"
+  },
+  {
+    "tip_korisnika": "Menadzer",
+    "korisnicko_ime": "veljko2",
+    "ime": "Veljko",
+    "prezime": "Savic",
+    "lozinka": "123atletika"
+  },
+  {
+    "tip_korisnika": "Menadzer",
+    "korisnicko_ime": "milann",
+    "ime": "Milan",
+    "prezime": "Jovanovic",
+    "lozinka": "milan299"
+  },
+  {
+    "tip_korisnika": "Prodavac",
+    "korisnicko_ime": "milica44",
+    "ime": "Milica",
+    "prezime": "Rakic",
+    "lozinka": "1234"
+  }
+]

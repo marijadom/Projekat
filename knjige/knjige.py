@@ -67,15 +67,17 @@ def sortiraj_knjige(kljuc):
 
 
 def prikaz_tabele_knjiga():
-    print("===========================================================")
-    knjiga_format = "sifra: {0} == naslov: {1} == autor: {2} == isbn: {3} ==" \
-                    " izdavac: {4} == godina izdanja: {5} == cena: {6} == kategorija: {7}"
     knjige = ucitaj_knjige()
+    zaglavlje = f"{'sifra':<7}{'naslov':<35}{'autor':<30}{'isbn':<35}{'izdavac':<20}{'broj strana':<13}{'godina':<8}{'cena':<9}{'kategorija':<20}"
+
+    print(zaglavlje)
+    print('-'*len(zaglavlje))
 
     for knjiga in knjige:
-        print(knjiga_format.format(knjiga["sifra"], knjiga["naslov"], knjiga['autor'], knjiga['isbn'], knjiga['izdavac'],
-                                   knjiga['godina'], knjiga['cena'], knjiga['kategorija']))
+        ispis = f"{knjiga['sifra']:<7}{knjiga['naslov']:<35}{knjiga['autor']:<30}{knjiga['isbn']:<35}{knjiga['izdavac']:<20}{knjiga['broj strana']:<13}{knjiga['godina']:<8}{knjiga['cena']:<9}{knjiga['kategorija']:<20}"
+        print(ispis)
 
+    print('-'*len(zaglavlje))
 
 
 def prikazi_knjige():
@@ -117,6 +119,7 @@ def dodaj_knjigu():
     autor = unos.validacija_unosa_string("Unesite autora: ")
     isbn = int(unos.validacija_unosa_broj("Unesite isbn: "))
     izdavac = unos.validacija_unosa_string("Unesite izdavaca: ")
+    broj_strana = int(unos.validacija_unosa_broj("Unesite broj strana knjige: "))
     godina = int(unos.validacija_unosa_broj("Unesite godinu izdanja: "))
     cena = unos.validacija_unosa_broj("Unesite cenu: ")
     kategorija = unos.validacija_unosa_string("Unesite kategoriju: ")
@@ -127,6 +130,7 @@ def dodaj_knjigu():
         "autor": autor,
         "isbn": isbn,
         "izdavac": izdavac,
+        "broj strana": broj_strana,
         "godina": godina,
         "cena": cena,
         "kategorija": kategorija
@@ -161,6 +165,10 @@ def izmena_knjige():
             izdavac = input("Unesite izdavaca: ")
             if izdavac != "":
                 knjiga['izdavac'] = izdavac
+
+            broj_strana = input("Unesite broj strana knjige: ")
+            if broj_strana != "":
+                knjiga['broj strana'] = int(broj_strana)
 
             godina = input("Unesite godinu izdanja: ")
             if godina != "":

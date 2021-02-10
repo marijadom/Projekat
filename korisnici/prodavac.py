@@ -81,7 +81,7 @@ def prodaja_knjiga(prodavac):
         if opcija == 3:
             sifre_knjiga = racun['knjige'].keys()
             for sifra in sifre_knjiga:
-                print("Kupljeno je {0} knjiga sa sifrom {1}".format(racun['knjige'][sifra], sifra))
+                print("Kupljeno je {0} knjiga sa sifrom {1}, naslov: {2}, autor: {3}, cena: {4}".format(racun['knjige'][sifra]['kolicina'], sifra, racun['knjige'][sifra]['naslov'], racun['knjige'][sifra]['autor'], racun['knjige'][sifra]['cena']))
             print("Trenutno stanje racuna je : " + str(racun['ukupna cena']))
 
         if opcija == 4:

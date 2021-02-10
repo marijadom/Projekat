@@ -1,6 +1,30 @@
 [
   {
-    "sifra": 223736735435095598469005376755167791460,
+    "sifra": 198945846932708948510821806225800694116,
+    "knjige": {
+      "2": {
+        "kolicina": 2,
+        "autor": "Gijom Muso",
+        "kategorija": "Roman",
+        "izdavac": "Vulkan",
+        "naslov": "Ako sutra ne postoji",
+        "cena": 750.0
+      },
+      "5": {
+        "kolicina": 3,
+        "autor": "Agata Kristi",
+        "kategorija": "Triler",
+        "izdavac": "Mladinska knjiga",
+        "naslov": "Ubistvo u Orijent ekspresu",
+        "cena": 985.0
+      }
+    },
+    "prodavac": "Stefan Markovic",
+    "ukupna cena": 4455.0,
+    "datum i vreme": "10/02/2021 16:55"
+  },
+  {
+    "sifra": 179603967126631717599306889701861230948,
     "knjige": {
       "2": {
         "kolicina": 3,
@@ -13,62 +37,6 @@
     },
     "prodavac": "Stefan Markovic",
     "ukupna cena": 2250.0,
-    "datum i vreme": "16/01/2021 19:36"
-  },
-  {
-    "sifra": 120788091035308154519022146764061149540,
-    "knjige": {
-      "2": {
-        "kolicina": 2,
-        "autor": "Gijom Muso",
-        "kategorija": "Roman",
-        "izdavac": "Vulkan",
-        "naslov": "Ako sutra ne postoji",
-        "cena": 750.0
-      }
-    },
-    "prodavac": "Stefan Markovic",
-    "ukupna cena": 1500.0,
-    "datum i vreme": "16/01/2021 20:31"
-  },
-  {
-    "sifra": 9929506941199654067409945672555039076,
-    "knjige": {
-      "3": {
-        "kolicina": 1,
-        "autor": "Aleksandar Sergejevic Puskin",
-        "kategorija": "Roman",
-        "izdavac": "Kontrast izdavastvo",
-        "naslov": "Evgenije Onjegin",
-        "cena": 740.0
-      },
-      "4": {
-        "kolicina": 3,
-        "autor": "Borislav Pekic",
-        "kategorija": "Biografija",
-        "izdavac": "Laguna",
-        "naslov": "Godine koje su pojeli skakavci",
-        "cena": 687.0
-      },
-      "5": {
-        "kolicina": 1,
-        "autor": "Agata Kristi",
-        "kategorija": "Triler",
-        "izdavac": "Mladinska knjiga",
-        "naslov": "Ubistvo u Orijent ekspresu",
-        "cena": 810.0
-      },
-      "6": {
-        "kolicina": 1,
-        "autor": "Den Simons",
-        "kategorija": "Fantastika",
-        "izdavac": "Prometej",
-        "naslov": "Crna brda",
-        "cena": 720.0
-      }
-    },
-    "prodavac": "Stefan Markovic",
-    "ukupna cena": 4697.0,
-    "datum i vreme": "16/01/2021 20:43"
+    "datum i vreme": "10/02/2021 17:07"
   }
 ]

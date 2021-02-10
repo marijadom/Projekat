@@ -5,16 +5,16 @@ from pomocne.unos import validacija_unosa_broj, validacija_unosa_string
 def prikaz_tabele_akcija(akcije):
 
 
-    zaglavlje = f"{'sifra':<5}  {'datum vazenja':<10}  {'naslov':<30}{'autor':<25}{'kategorija':<15}{'nova cena':<7}"
+    zaglavlje = f"{'sifra':<7}{'datum vazenja':<10}{'naslov':<35}{'autor':<35}{'kategorija':<15}{'nova cena':<7}"
 
     print(zaglavlje)
     print('-'*len(zaglavlje))
 
     for akcija in akcije:
-        ispis = f"{akcija['sifra']:<5}   {akcija['datum vazenja']:<10}"
+        ispis = f"{akcija['sifra']:<7}{akcija['datum vazenja']:<10}"
         print(ispis)
         for knjiga in akcija['knjige'].keys():
-            ispis = '\t\t\t\t\t' + f" {akcija['knjige'][knjiga]['naslov']:<30}{akcija['knjige'][knjiga]['autor']:<25}{akcija['knjige'][knjiga]['kategorija']:<15}{akcija['knjige'][knjiga]['nova cena']:<7}"
+            ispis = '\t\t\t\t\t' + f" {akcija['knjige'][knjiga]['naslov']:<35}{akcija['knjige'][knjiga]['autor']:<35}{akcija['knjige'][knjiga]['kategorija']:<15}{akcija['knjige'][knjiga]['nova cena']:<7}"
             print(ispis)
 
     print('\n1.Sortirati akcije po sifri.')

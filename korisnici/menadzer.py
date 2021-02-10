@@ -69,13 +69,13 @@ def izvestaj_knjige():
                 izvestaj[sifra_knjige]['ukupna kolicina'] += racun['knjige'][sifra_knjige]['kolicina']
                 izvestaj[sifra_knjige]['ukupna zarada'] += racun['knjige'][sifra_knjige]['cena'] * racun['knjige'][sifra_knjige]['kolicina']
 
-    zaglavlje = f"{'naslov':<30}{'autor':<30}{'ukupna kolicina':<16}{'ukupna zarada':<10}"
+    zaglavlje = f"{'naslov':<35}{'autor':<30}{'ukupna kolicina':<16}{'ukupna zarada':<10}"
 
     print(zaglavlje)
     print('-' * len(zaglavlje))
 
     for knjiga in izvestaj.values():
-        ispis = f"{knjiga['naslov']:<30}{knjiga['autor']:<30}{knjiga['ukupna kolicina']:<16}{knjiga['ukupna zarada']:<10}"
+        ispis = f"{knjiga['naslov']:<35}{knjiga['autor']:<30}{knjiga['ukupna kolicina']:<16}{knjiga['ukupna zarada']:<10}"
         print(ispis)
 
     print('-' * len(zaglavlje))
