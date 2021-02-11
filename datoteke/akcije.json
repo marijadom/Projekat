@@ -58,5 +58,23 @@
       }
     },
     "datum vazenja": "02/10/21"
+  },
+  {
+    "sifra": 4,
+    "knjige": {
+      "11": {
+        "nova cena": 834.0,
+        "naslov": "Lov na stenice",
+        "autor": "Dragoslav Mihailovic",
+        "kategorija": "Autobiografija"
+      },
+      "7": {
+        "nova cena": 780.0,
+        "naslov": "Biografija gladi",
+        "autor": "Ameli Notomb",
+        "kategorija": "Biografija"
+      }
+    },
+    "datum vazenja": "03/11/21"
   }
 ]

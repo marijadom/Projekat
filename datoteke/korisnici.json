@@ -54,5 +54,12 @@
     "ime": "Milica",
     "prezime": "Rakic",
     "lozinka": "1234"
+  },
+  {
+    "tip_korisnika": "Prodavac",
+    "korisnicko_ime": "rnena",
+    "ime": "Ksenija",
+    "prezime": "Radosavljevic",
+    "lozinka": "jednomdavno88"
   }
 ]

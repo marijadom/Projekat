@@ -91,7 +91,7 @@
     "sifra": 9,
     "naslov": "Na Drini cuprija",
     "autor": "Ivo Andric",
-    "isbn": 1312312312300.0,
+    "isbn": 13123123123000,
     "izdavac": "Vulkan",
     "broj strana": 450,
     "godina": 2018,
@@ -107,6 +107,17 @@
     "broj strana": 120,
     "godina": 2019,
     "cena": 542.0,
-    "kategorija": "filozofski"
+    "kategorija": "Filozofski"
+  },
+  {
+    "sifra": 11,
+    "naslov": "Lov na stenice",
+    "autor": "Dragoslav Mihailovic",
+    "isbn": 1142546654221,
+    "izdavac": "Eduka",
+    "broj strana": 322,
+    "godina": 2018,
+    "cena": 840.0,
+    "kategorija": "Autobiografija"
   }
 ]

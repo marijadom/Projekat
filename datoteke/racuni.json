@@ -38,5 +38,37 @@
     "prodavac": "Stefan Markovic",
     "ukupna cena": 2250.0,
     "datum i vreme": "10/02/2021 17:07"
+  },
+  {
+    "sifra": 2850009043613725473280414249860335972,
+    "knjige": {
+      "5": {
+        "kolicina": 3,
+        "autor": "Agata Kristi",
+        "kategorija": "Triler",
+        "izdavac": "Mladinska knjiga",
+        "naslov": "Ubistvo u Orijent ekspresu",
+        "cena": 985.0
+      },
+      "8": {
+        "kolicina": 1,
+        "autor": "Mario Vargas Ljosa",
+        "kategorija": "Triler",
+        "izdavac": "Laguna",
+        "naslov": "Diskretni heroj",
+        "cena": 650.0
+      },
+      "4": {
+        "kolicina": 1,
+        "autor": "Borislav Pekic",
+        "kategorija": "Biografija",
+        "izdavac": "Laguna",
+        "naslov": "Godine koje su pojeli skakavci",
+        "cena": 530.0
+      }
+    },
+    "prodavac": "Stefan Markovic",
+    "ukupna cena": 3904.0,
+    "datum i vreme": "11/02/2021 22:14"
   }
 ]
